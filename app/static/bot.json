@@ -1,0 +1,182 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey", "hie", "hy", "heya"],
+    "bot_response": "Hello! How can I assist you with your household appliances today?",
+    "required_words": []
+  },
+  {
+    "response_type": "farewell",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "Goodbye! If you need any more help with your appliances, feel free to reach out.",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you!"],
+    "bot_response": "Nice to meet you too! How can I help you today?",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "fix", "ac", "air", "conditioner"],
+    "bot_response": "To fix your AC, you can start by checking if the air filter is clean and the thermostat is set correctly. For more detailed troubleshooting, please contact our technician at 123-456-7890.",
+    "required_words": ["fix", "ac"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "fix", "tv", "television"],
+    "bot_response": "For TV issues, try checking the cable connections and ensuring the power source is working. If the problem persists, contact our support at 123-456-7890.",
+    "required_words": ["fix", "tv"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "fix", "refrigerator", "fridge"],
+    "bot_response": "If your refrigerator isn't working, check if it's plugged in and the thermostat is set correctly. If these don't help, please call our technician at 123-456-7890.",
+    "required_words": ["fix", "refrigerator"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "services", "do", "you", "offer"],
+    "bot_response": "We offer a wide range of services including AC repair, TV repair, refrigerator maintenance, and more. How can we help you today?",
+    "required_words": ["services", "offer"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "much", "is", "the", "service", "fee"],
+    "bot_response": "Our service fees vary depending on the appliance and the issue. For a detailed quote, please contact our support at 123-456-7890.",
+    "required_words": ["service", "fee"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["do", "you", "provide", "warranty", "guarantee"],
+    "bot_response": "Yes, we provide a warranty on our repairs. For specific details, please contact our support team.",
+    "required_words": ["provide", "warranty"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "is", "the", "warranty", "period"],
+    "bot_response": "Our warranty period is typically 6 months for most repairs. For more information, please contact our support.",
+    "required_words": ["warranty", "period"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "can", "i", "schedule", "a", "service", "appointment"],
+    "bot_response": "You can schedule a service appointment by calling our support at 123-456-7890 or by visiting our website.",
+    "required_words": ["schedule", "service", "appointment"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "are", "your", "working", "hours"],
+    "bot_response": "Our working hours are from 9 AM to 6 PM, Monday to Saturday.",
+    "required_words": ["working", "hours"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["where", "are", "you", "located"],
+    "bot_response": "We are located at 123 Main Street, Cityville. For more details, visit our website or call us.",
+    "required_words": ["located", "where"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "brands", "do", "you", "service"],
+    "bot_response": "We service all major brands including Samsung, LG, Whirlpool, Sony, and more. How can we assist you today?",
+    "required_words": ["brands", "service"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "long", "does", "a", "repair", "take"],
+    "bot_response": "The duration of a repair depends on the issue and the appliance. Typically, repairs can be completed within a few hours to a day.",
+    "required_words": ["repair", "how", "long"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["do", "you", "offer", "emergency", "services"],
+    "bot_response": "Yes, we offer emergency services. Please call our emergency hotline at 123-456-7890 for immediate assistance.",
+    "required_words": ["offer", "emergency", "services"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["can", "i", "track", "my", "service", "request"],
+    "bot_response": "Yes, you can track your service request by calling our support or visiting our website and entering your service request number.",
+    "required_words": ["track", "service", "request"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "can", "i", "pay", "for", "the", "service"],
+    "bot_response": "You can pay for the service via credit card, debit card, or online payment through our website.",
+    "required_words": ["pay", "service"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["do", "you", "offer", "installation", "services"],
+    "bot_response": "Yes, we offer installation services for ACs, TVs, refrigerators, and other appliances. Contact us to schedule an installation.",
+    "required_words": ["offer", "installation", "services"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["who", "are", "you", "/?"],
+    "bot_response": "I am a Chatbot designed to assist you with your household appliance needs. How can I help you today?",
+    "required_words": ["are", "you", "who"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["can", "i", "get", "a", "quote"],
+    "bot_response": "Yes, you can get a quote by contacting our support team at 123-456-7890 or by visiting our website.",
+    "required_words": ["get", "quote"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["do", "you", "offer", "preventive", "maintenance", "services"],
+    "bot_response": "Yes, we offer preventive maintenance services for all major household appliances. Contact us to schedule a maintenance check.",
+    "required_words": ["preventive", "maintenance", "services"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "often", "should", "i", "service", "my", "ac"],
+    "bot_response": "It is recommended to service your AC at least once a year to ensure optimal performance and longevity.",
+    "required_words": ["how", "often", "service", "ac"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["why", "is", "my", "refrigerator", "making", "noise"],
+    "bot_response": "A noisy refrigerator could be due to a variety of reasons such as a faulty fan, compressor, or motor. It is best to have a technician inspect it. Contact us at 123-456-7890 for assistance.",
+    "required_words": ["refrigerator", "making", "noise"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "do", "i", "do", "if", "my", "tv", "screen", "is", "blank"],
+    "bot_response": "If your TV screen is blank, try checking the cable connections, ensuring the power source is working, and resetting the TV. If the issue persists, contact our support at 123-456-7890.",
+    "required_words": ["tv", "screen", "blank"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["can", "i", "get", "a", "replacement", "for", "my", "old", "appliance"],
+    "bot_response": "Yes, we offer replacement services for old appliances. Contact us to discuss the options available.",
+    "required_words": ["get", "replacement", "old", "appliance"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "do", "i", "reset", "my", "ac"],
+    "bot_response": "To reset your AC, turn off the power to the unit, wait for about 30 seconds, and then turn it back on. If the problem persists, contact our support at 123-456-7890.",
+    "required_words": ["reset", "ac"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["why", "is", "my", "fridge", "not", "cooling"],
+    "bot_response": "If your fridge is not cooling, check if the thermostat is set correctly, the vents are not blocked, and the door seals are intact. If these checks don't help, contact us at 123-456-7890.",
+    "required_words": ["fridge", "not", "cooling"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["do", "you", "offer", "same-day", "repair", "services"],
+    "bot_response": "Yes, we offer same-day repair services depending on the availability of our technicians. Please contact us to schedule an appointment.",
+    "required_words": ["same-day", "repair", "services"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["can", "i", "get", "a", "discount", "on", "services"],
+    "bot_response": "We offer discounts on services from time to time. Please check our website or contact our support team for the latest offers.",
+    "required_words": ["get", "discount", "services"]
+  }
+]
